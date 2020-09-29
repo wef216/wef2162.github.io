@@ -1,12 +1,11 @@
 
-
 body {
  background-color: white;
  margin-left:auto;
  margin-right: auto;
  font-family: sans-serif ;
  font-size: 13px;
- width: 65%;
+ width: 60%;
  color: #666666;
  
 }
@@ -21,10 +20,10 @@ body {
 
 
 #navbar {
- margin: 10px 10px 30px 10px;
- height: 30px;
  background-color: white;
- border-bottom: 1px #e7e7e7 solid;
+ margin-bottom:5px;
+ font-size:110%;
+ border-bottom: 1px rgb(175, 175, 175) solid;
 }
 
 
@@ -109,15 +108,23 @@ h1{
  padding: 15px;
 }
 
+#navbar ul li:hover{
+    background-color: #e7e7e7;
+}
+
+
+
 
 #navbar-tier2{
  background-color: white;
  margin-left:20px;
 }
 
+
+
 #navbar-tier2 ul li {
  display: inline;
- margin-left:5px;
+ margin-left:25px;
  vertical-align:middle;
  padding: 15px;
 }
@@ -189,4 +196,3 @@ ul li a:hover{
     margin-bottom:5px;
     margin-top:10px;
 }
-
