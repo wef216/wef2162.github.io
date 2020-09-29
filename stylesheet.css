@@ -124,7 +124,8 @@ h1{
 
 #navbar-tier2 ul li {
  display: inline;
- margin-left:25px;
+ margin-left:20px;
+ margin-right:20px;
  vertical-align:middle;
  padding: 15px;
 }
