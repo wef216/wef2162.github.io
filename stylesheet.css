@@ -24,6 +24,7 @@ body {
  margin: 10px 10px 30px 10px;
  height: 30px;
  background-color: white;
+ border-bottom: 1px #e7e7e7 solid;
 }
 
 
@@ -99,10 +100,7 @@ h1{
  font-weight: 600;
 }
 
-#navbar{
- background-color: #e7e7e7;
- margin-bottom:5px;
-}
+
 
 #navbar ul li {
  display: inline;
