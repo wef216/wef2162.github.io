@@ -63,6 +63,7 @@ h1{
  width: 280px;
  height:1000px;
  clear:left;
+ outline: 1px black solid;
 }
 
 
@@ -75,6 +76,7 @@ h1{
  float:left;
  width: 300px;
  clear:right;
+ outline: 1px black solid;
 }
 
 #bio-name{
@@ -99,14 +101,20 @@ h1{
  font-weight: 600;
 }
 
-
+#navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 #navbar ul li {
  display: inline;
- margin-left: 15%;
+ margin-left: 0%;
+ margin-right:0%;
  vertical-align:middle;
- padding: 15px;
+ padding: 0%;
 }
+
+
 
 #navbar ul li:hover{
     background-color: #e7e7e7;
@@ -117,17 +125,22 @@ h1{
 
 #navbar-tier2{
  background-color: white;
- margin-left:20px;
+ margin-left:0%;
+ margin-right:0%;
 }
 
 
+#navbar-tier2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 #navbar-tier2 ul li {
  display: inline;
- margin-left:20px;
- margin-right:20px;
+ margin-left: 0%;
+ margin-right: 0%;
  vertical-align:middle;
- padding: 15px;
+ padding: 0%;
 }
 
 a.format {
@@ -158,6 +171,7 @@ ul li a.format {
 ul li a:hover{
  background-color: #dadada ;
 }
+
 
 .name{
  font-size: 105%;
